@@ -6,7 +6,7 @@ name: Test trigger
 on:
   # Triggers the workflow on push or pull request events but only for the "master" branch
   push:
-    branches: [ "master", "demo1" ]
+    branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
 
