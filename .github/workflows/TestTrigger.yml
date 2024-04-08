@@ -38,7 +38,7 @@ jobs:
       - name: Trigger Jenkins Job
         uses: appleboy/jenkins-action@v0.0.2
         with:
-          url: "http://localhost:8080/"
+          url: "https://05c3-2402-9d80-24a-1c00-5cd2-3245-8867-6c84.ngrok-free.app/"
           user: "admin"
-          token: "11cece8957795b2c2cdb8dce5469a5f405"
-          job: "TriggerFromGitHub"
+          token: "117fbdc1fab405340c1918bf5ed52949e9"
+          job: "TriggerWithGIthubAction"
